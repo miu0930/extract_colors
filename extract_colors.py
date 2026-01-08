@@ -89,7 +89,7 @@ def exact_color(input_image, resize, tolerance, zoom):
     plt.tight_layout()
     plt.savefig(output_path + image_name + '_color.png')
 
-input_image = "./input_sample/12.jpg"
+input_image = "./input_sample/sample.jpg"
 resize = 1024
 tolerance = 36
 zoom = 2.5
